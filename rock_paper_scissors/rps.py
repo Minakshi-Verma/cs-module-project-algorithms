@@ -2,11 +2,21 @@
 
 import sys
 
-
+#n = number of plays
 def rock_paper_scissors(n):
-  #if n=0, 0 play
-  #if n=1, 1 play
+  output=[]   # gives possible permutations
+  words=["rock", "paper", "scissors"]
+ 
+  if len(output)==0:
+    return output  #empty array
   
+  elif len(output)==1:
+    return output.append(words) # [[a,b,c]]
+ 
+  
+  # elif len(output)>1:
+   
+  # return output.append() # [[],[],[],[],[]....]
 
  
 
