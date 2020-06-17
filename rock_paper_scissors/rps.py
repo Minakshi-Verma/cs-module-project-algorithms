@@ -2,10 +2,15 @@
 
 import sys
 
-def rock_paper_scissors(n):
-  # Your code here
 
-  pass
+def rock_paper_scissors(n):
+  #if n=0, 0 play
+  #if n=1, 1 play
+  
+
+ 
+
+  
 
 
 if __name__ == "__main__":
