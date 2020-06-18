@@ -4,6 +4,7 @@ import sys
 
 #n = number of plays
 def rock_paper_scissors(n):
+  #n= number of plays per round
   output=[]   #  possible permutations
   words=["rock", "paper", "scissors"]
  

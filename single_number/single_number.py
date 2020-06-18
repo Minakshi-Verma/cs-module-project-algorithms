@@ -2,17 +2,37 @@
 Input: a List of integers where every int except one shows up twice
 Returns: an integer
 '''
-def single_number(arr):
+##instructor's  optimized code 
+# def single_number(nums): # O(n)
+#     # keep track of number of times an item occurs in input
+#     counts = {}
 
-    # Your code here
+#     # loop through input list O(n)
+#     for num in nums:
+#         # if item in counts
+#         if num in counts:
+#             # remove item
+#             del counts[num]
+#         # otherwise
+#         else:
+#             counts[num] = 1
+#             # add item
+
+#     for k, v in counts.items(): # O(1)
+#         if v == 1:
+#             return k
+
+
+
+def single_number(arr):
+    #instructor's code  
     # Array can not be empty, so len(arr)>0
     # All the numbers will have a duplicate except for 1
     # dict.fromkeys will remove all the listduplicates
     # arr1 = list(dict.fromkeys(arr))
     # print(arr1)
   
-    from collections import Counter
-     
+    from collections import Counter  
 
     dict_arr = Counter(arr)
     print(dict_arr)
