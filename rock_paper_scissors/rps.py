@@ -4,7 +4,7 @@ import sys
 
 #n = number of plays
 def rock_paper_scissors(n):
-  output=[]   # gives possible permutations
+  output=[]   #  possible permutations
   words=["rock", "paper", "scissors"]
  
   if len(output)==0:
