@@ -3,29 +3,16 @@ Input: a List of integers
 Returns: a List of integers
 '''
 def moving_zeroes(arr):
-    # Your code here
-    #return length
-    #return mutated array
-
     zerovalue_item =0
-
-   
-    # for i in range(len(arr)):
-    #     arr[i]==zerovalue_item       
-    #     arr.remove(zerovalue_item)
-    #     print(len(arr))
-        
-    #     arr.append(zerovalue_item)        
-    #     print(arr)         
-            
-    # return arr
       
     for i in range(len(arr)):
+        # if there are items with zero value, remove them, then append them in the end
         if arr[i]==zerovalue_item:       
             arr.remove(zerovalue_item)
             print(len(arr))
             arr.append(zerovalue_item)        
             print(arr)
+           # if no zero item, return the original array              
         else:
             print(arr)                 
             
