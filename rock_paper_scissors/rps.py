@@ -2,10 +2,26 @@
 
 import sys
 
+#n = number of plays
 def rock_paper_scissors(n):
-  # Your code here
+  #n= number of plays per round
+  output=[]   #  possible permutations
+  words=["rock", "paper", "scissors"]
+ 
+  if len(output)==0:
+    return output  #empty array
+  
+  elif len(output)==1:
+    return output.append(words) # [[a,b,c]]
+ 
+  
+  # elif len(output)>1:
+   
+  # return output.append() # [[],[],[],[],[]....]
 
-  pass
+ 
+
+  
 
 
 if __name__ == "__main__":
